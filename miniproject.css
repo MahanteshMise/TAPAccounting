@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.alignment {
+  width: 90%;
+  margin: 10rem auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+.item {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-content: space-between;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  flex-grow: 1;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+.btn-container {
+  display: flex;
+  gap: 1.2em;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75 rem;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+/* Hero's Section */
+.hero {
+  text-align: center;
+}
+.hero__title {
+  font-size: 3.5rem;
+  letter-spacing: -0.05em;
+}
+.hero__description {
+  font-size: 1.2rem;
+  max-width: 45ch;
+  margin: 2em auto;
+}
+
+/* Pricing Section */
+.pricing__title {
+  font-size: 2rem;
+}
+.pricing__message {
+  font-size: 1.2rem;
+}
+.pricing__parent {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  margin-top: 0.8em;
+}
+.pricing__box {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5em 2em;
+  width: 30em;
+}
+.pricing__btn {
+  display: flex;
+  color: black;
+  width: 50%;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1.5em auto;
+  justify-content: center;
+}
+.pricing__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.features {
+  text-align: center;
+}
+.features__title {
+  font-size: 2.2rem;
+}
+.features__description {
+  font-size: 1.2rem;
+  max-width: 45ch;
+  margin: 1em auto;
+}
+.features__card {
+  border-radius: 10px;
+  padding: 0.2em 2em;
+  flex-grow: 1;
+  width: 500px;
+}
+
+.features__parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 25px;
+}
+
+.contact__parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.footer__message {
+  margin: 8em 1em auto;
+  font-weight: 300;
+  color: black;
+}
